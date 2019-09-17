@@ -5,21 +5,21 @@ import plotly.graph_objs as go
 
 ########### Define your variables ######
 
-myheading = "Baseball Stats from the 1950s"
-mytitle = "Batting Averages for 3 Hall of Famers"
-x_values = ['1954', '1955', '1956', '1957', '1958', '1959']
-y1_values = [345, 356, 345, 388, 328, 254]
-y2_values = [300, 306, 353, 365, 304, 285]
-y3_values = [280, 314, 328, 322, 326, 355]
+myheading = "US Population Growth for DC, MD, and VA: 1960 thru 2010"
+mytitle = "DMV Area Population Statistics"
+x_values = ['1960', '1970', '1980', '1990', '2000', '2010']
+y1_values = [763956, 756510, 638333, 606900, 572059, 601723]
+y2_values = [3970000, 4650000, 5350000, 6190000, 7080000, 8020000]
+y3_values = [3100000, 3920000, 4220000, 4780000, 5300000, 5790000]
 color1 = '#fc9403'
 color2 = '#0307fc'
 color3 = '#9003fc'
-name1 = 'Ted Williams'
-name2 = 'Mickey Mantle'
-name3 = 'Hank Aaron'
-tabtitle = 'baseball'
-sourceurl = 'https://www.baseball-reference.com'
-githublink = 'https://github.com/austinlasseter/dash-linechart-example'
+name1 = 'Washington, DC'
+name2 = 'Virginia'
+name3 = 'Maryland'
+tabtitle = 'DMV Population'
+sourceurl = 'https://www.multpl.com/united-states-population/table/by-year'
+githublink = 'https://github.com/calijason76/dash-linechart-example'
 
 ########### Set up the chart
 
