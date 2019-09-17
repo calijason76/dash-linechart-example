@@ -68,9 +68,9 @@ app.layout = html.Div(children=[
         id='figure-1',
         figure=fig
     ),
-    html.A('Grab My Code!', href=githublink),
+    html.A('Grab My Code!', href=githublink, style={'text-align': 'center'}),
     html.Br(),
-    html.A("My Numbers are Legit!", href=sourceurl),
+    html.A("My Numbers are Legit!", href=sourceurl, style={'text-align': 'center'}),
     ]
 )
 
